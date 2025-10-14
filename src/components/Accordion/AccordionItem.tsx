@@ -18,7 +18,7 @@ const AccordionItem = ({
           <img
             className="size-6"
             src={`${import.meta.env.BASE_URL}${
-              showContent ? "down-arrow.svg" : "up-arrow.svg"
+              showContent ? "minus.svg" : "plus.svg"
             }`}
             alt="arrow"
           />
