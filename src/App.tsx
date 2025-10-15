@@ -3,6 +3,7 @@ import "./App.css";
 import Home from "./pages/Home";
 import Accordions from "./pages/Accordions";
 import Navbar from "./components/Navbar/Navbar";
+import EmiCalculator from "./components/emi-calculator/emi-calculator";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/accordion" element={<Accordions />} />
+        <Route path="/emi-calculator" element={<EmiCalculator />} />
       </Routes>
     </HashRouter>
   );
