@@ -30,3 +30,23 @@ export const accordionData: AccordionTypes[] = [
       "TypeScript is a typed superset of JavaScript that compiles to plain JavaScript. It is designed to help developers write more maintainable and scalable code by adding static types and other features to the language.",
   },
 ];
+
+interface mLink {
+  title: string;
+  path: string;
+}
+
+export const allLinks: mLink[] = [
+  {
+    title: "Accordion",
+    path: "accordion",
+  },
+  {
+    title: "EMI Calculator",
+    path: "emi-calculator",
+  },
+  {
+    title: "Star Rating",
+    path: "star-rating",
+  },
+];

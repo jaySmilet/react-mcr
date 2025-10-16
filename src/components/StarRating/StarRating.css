@@ -1,0 +1,6 @@
+.star {
+    color: gray;
+}
+.star.filled {
+    color: black;
+}

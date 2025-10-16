@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 import Accordions from "./pages/Accordions";
 import Navbar from "./components/Navbar/Navbar";
 import EmiCalculator from "./components/emi-calculator/emi-calculator";
+import StarRating from "./components/StarRating/StarRating";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/accordion" element={<Accordions />} />
         <Route path="/emi-calculator" element={<EmiCalculator />} />
+        <Route path="/star-rating" element={<StarRating />} />
       </Routes>
     </HashRouter>
   );
