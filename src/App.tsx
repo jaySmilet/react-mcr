@@ -5,6 +5,7 @@ import Accordions from "./pages/Accordions";
 import Navbar from "./components/Navbar/Navbar";
 import EmiCalculator from "./components/emi-calculator/emi-calculator";
 import StarRating from "./components/StarRating/StarRating";
+import ProgressBarPage from "./pages/ProgressBarPage";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/accordion" element={<Accordions />} />
         <Route path="/emi-calculator" element={<EmiCalculator />} />
         <Route path="/star-rating" element={<StarRating />} />
+        <Route path="/progress-bar" element={<ProgressBarPage />} />
       </Routes>
     </HashRouter>
   );

@@ -49,4 +49,8 @@ export const allLinks: mLink[] = [
     title: "Star Rating",
     path: "star-rating",
   },
+  {
+    title: "Progress Bar",
+    path: "progress-bar",
+  },
 ];

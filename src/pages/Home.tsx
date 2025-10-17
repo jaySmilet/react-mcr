@@ -5,7 +5,7 @@ const Home = () => {
   const navigate = useNavigate();
   return (
     <div className=" flex flex-col gap-6 h-screen mt-6">
-      <div className="flex flex-col">
+      <div className="flex flex-col p-2">
         <ul className="w-[400px]">
           {allLinks.map((link) => (
             <li
