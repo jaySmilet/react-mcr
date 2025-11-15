@@ -53,4 +53,69 @@ export const allLinks: mLink[] = [
     title: "Progress Bar",
     path: "progress-bar",
   },
+  {
+    title: "Folder Structure",
+    path: "folder-structure",
+  },
 ];
+
+export interface Folder {
+  name: string;
+  isFold?: boolean;
+  children?: Folder[];
+}
+
+export const folderData: Folder = {
+  name: "root",
+  isFold: true,
+  children: [
+    {
+      name: "public",
+      isFold: true,
+      children: [
+        {
+          name: "assets",
+          isFold: true,
+          children: [
+            {
+              name: "images",
+            },
+            {
+              name: "logo",
+            },
+          ],
+        },
+      ],
+    },
+    {
+      name: "src",
+      isFold: true,
+      children: [
+        {
+          name: "App.tsx",
+        },
+        {
+          name: "main.tsx",
+        },
+        {
+          name: "App.css",
+        },
+      ],
+    },
+    {
+      name: ".gitignore",
+    },
+    {
+      name: ".eslint.config.js",
+    },
+    {
+      name: "index.html",
+    },
+    {
+      name: "package-lock.json",
+    },
+    {
+      name: "README.md",
+    },
+  ],
+};
